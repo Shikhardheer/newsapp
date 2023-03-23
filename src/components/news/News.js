@@ -6,7 +6,7 @@ function News(props){
 return (<>
 <div className="news">
     {
-        props.data.articles.map((value,i)=>(
+        props.data?.map((value,i)=>(
             <Card targetlink={value.url} heading={value.title} desc={value.description} url={value.urlToImage}></Card>
         ))
     }

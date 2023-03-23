@@ -12,7 +12,7 @@ function Card(props) {
           <div className="content">{props.desc}</div>
         </div>
         <div className="img_class">
-          <img className="img" src={props.url} alt="" />
+          <img className="img" src={props.url==null?"https://c8.alamy.com/comp/2H5RADC/globe-world-news-flat-icon-vector-illustration-news-symbol-logo-illustration-2H5RADC.jpg" :props.url}alt="" />
         </div>
       </div>
     </>
