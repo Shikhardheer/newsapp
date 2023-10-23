@@ -1,3 +1,7 @@
+#In this Project Api is used it can't be accessed globally. Please clone it and run it on local host.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
